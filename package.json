@@ -1,0 +1,11 @@
+{
+  "name": "weather-node",
+  "version": "1.0.0",
+  "description": "A sandbox weather application for learning Node.js as well as other technology.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Travis Craft",
+  "license": "ISC"
+}
