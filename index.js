@@ -8,7 +8,7 @@ exports.handler = async (event, context) => {
   return new Promise((resolve, reject) => {
     request(url, function (err, response, body) {
       if(err) {
-        console.log('error:', err);
+        console.error('error:', err);
         reject('Server Error.');
       } else {
         console.log('Success!');
