@@ -13,8 +13,7 @@ exports.handler = async (event, context) => {
       } else {
         console.log('Success!');
         const weather = JSON.parse(body);
-        const message = `It's ${weather.main.temp} degrees in ${weather.name}!`;
-        resolve(message);
+        resolve(weather);
       }
     });
   });
